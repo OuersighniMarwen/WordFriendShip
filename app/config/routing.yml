@@ -1,0 +1,37 @@
+logement:
+    resource: "@LogementBundle/Resources/config/routing.yml"
+    type:     annotation
+    prefix:   /
+
+blog:
+    resource: "@BlogBundle/Resources/config/routing.yml"
+    prefix:   /blog
+
+travelbuddy:
+    resource: "@TravelbuddyBundle/Resources/config/routing.yml"
+    type:     annotation
+    prefix:   /
+
+equipement:
+    resource: "@EquipementBundle/Resources/config/routing.yml"
+    type:     annotation
+    prefix:   /
+
+event:
+    resource: "@EventBundle/Resources/config/routing.yml"
+    type:     annotation
+    prefix:   /
+
+qr:
+    resource: "@GroupBundle/Resources/config/routing.yml"
+    prefix:   /qr
+
+experience:
+    resource: "@ExperienceBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
